@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Pacifico', cursive;
+
+
+}
+.submitBtn{
+    background-color: #d1512d;
+    border-radius: 10px;
+    border: #d1512d;
+    width: 100px;
+    margin: 30px;
+}
+.delete{
+    background-color: #9eb23b;
+    border: #9eb23b;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    height: 40px;
+}
+body{
+    background-color:#f7ecde ;
+    
+}
+
+    

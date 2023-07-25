@@ -1,0 +1,49 @@
+<html>
+    <head>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+3:ital,wght@1,900&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+<div class="container text-center p-5 "><h1> BOOK
+    MAREK</h1>
+</div>
+    <div class="container p-5">
+        <div class="container text-center p-5 ">
+        <h3>
+            <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites<i class="fa-solid fa-bookmark"></i>
+        </h3>
+    </div>
+        <div id="form" class="">
+            <i class="fa-solid fa-book-bookmark "></i> <label  for="bookName"><h5> Site Name</h5></label>
+            <input id="bookName" type="text" class="form-control mt-2 " placeholder="Bookmark Name">
+            <i class="fa-solid fa-link "></i> <label  for="URL"><h5>Site URL</h5></label>
+            <input id="URL" type="text" class="form-control mt-2 " placeholder="URL">
+            <button class="submitBtn" onclick="addBoock()" class="btn btn-outline-submit " id="submitBtn">Submit</button>
+            
+
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <table class="table table-hover text-center">
+            <thead>
+                
+                    <th>index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                
+            </thead>
+            <tbody id="bookTable">
+               
+        </table>
+<script src="javascript/main.js"></script>
+    </div>
+    </body>
+</html>
